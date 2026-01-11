@@ -4,25 +4,25 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
     <>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">            
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><Link to="/">Home</Link> <span class="sr-only"></span></a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">            
+  <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav">
+      <li className="nav-item active">
+  <Link to="/">Home</Link> <span className="sr-only"></span>
       </li>
 
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><Link to="/Books">Books</Link> <span class="sr-only"></span></a>
+      <li className="nav-item active">
+<Link to="/Books">Books</Link> <span className="sr-only"></span>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><Link to="/Profile">Profile</Link> <span class="sr-only"></span></a>
+      <li className="nav-item active">
+        <Link to="/Profile">Profile</Link> <span className="sr-only"></span>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#"><Link to="/about">About</Link></a>
+      <li className="nav-item">
+        <Link to="/about">About</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><Link to="/contact">Contact</Link></a>
+      <li className="nav-item">
+        <Link to="/contact">Contact</Link>
       </li>
     </ul>
   </div>
