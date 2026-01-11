@@ -10,9 +10,14 @@ function NavBar() {
       <li class="nav-item active">
         <a class="nav-link" href="#"><Link to="/">Home</Link> <span class="sr-only"></span></a>
       </li>
+
       <li class="nav-item active">
         <a class="nav-link" href="#"><Link to="/Books">Books</Link> <span class="sr-only"></span></a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><Link to="/Profile">Profile</Link> <span class="sr-only"></span></a>
+      </li>
+
       <li class="nav-item">
         <a class="nav-link" href="#"><Link to="/about">About</Link></a>
       </li>
